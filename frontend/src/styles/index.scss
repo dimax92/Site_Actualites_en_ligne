@@ -1,0 +1,23 @@
+@import "./mixins.scss";
+@import "./accueil.scss";
+@import "./navigation.scss";
+@import "./login.scss";
+@import "./recherche.scss";
+@import "./contenu.scss";
+@import "./formulaire.scss";
+@import "./mesactualites.scss";
+@import "./messages.scss";
+
+body {
+    margin: 0px;
+    background: rgb(13 240 13 / 9%);
+}
+input:focus-visible {
+    outline: none;
+}
+textarea:focus-visible {
+    outline: none;
+}
+button:focus-visible {
+    outline: none;
+}

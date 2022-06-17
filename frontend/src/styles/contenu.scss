@@ -1,0 +1,58 @@
+.divContenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .divCommentaire {
+        width: 90%;
+        form {
+            margin-top:30px ;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            label {
+                font-size: 20px;
+                font-weight: bold;
+            }
+            textarea {
+                margin: 10px 0px;
+                width: 100%;
+                max-width: 400px;
+                height: 100px;
+                resize: none;
+                border-radius: 5px;
+                border: solid 0.01px #0000003b;
+            }
+            button {
+                @include button-recherche;
+                height: 30px;
+                border-radius: 10px;
+            }
+        }
+        .commentaires {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            width: 100%;
+            .commentaire {
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background: #0000001f;
+                max-width: 300px;
+                border-radius: 30px;
+                padding: 5px;
+                margin: 10px 0px;
+                .pseudoCommentaire {
+                    font-weight: bold;
+                }
+                p {
+                    margin: 5px;
+                }
+            }
+        }
+    }
+}

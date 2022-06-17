@@ -1,0 +1,18 @@
+@mixin button-recherche {
+    width: 30%;
+    border: none;
+    background: rgb(13, 240, 13);
+    color: white;
+    font-weight: bold;
+    font-size: 80%;
+    cursor: pointer;
+}
+
+@mixin options-selection {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 400px;
+    align-items: center;
+}

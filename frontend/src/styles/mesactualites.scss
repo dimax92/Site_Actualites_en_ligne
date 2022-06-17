@@ -1,0 +1,48 @@
+.divMesActualites {
+    .actualitesMap {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .actualite {
+            width: 90%;
+            max-width: 200px;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 5px;
+            margin: 10px;
+            p {
+                font-weight: bold;
+                margin: 5px;
+            }
+            .supprimerModifier {
+                display: flex;
+                width: 100%;
+                a {
+                    width: 50%;
+                    border-radius: 0px 0px 0px 5px;
+                    button {
+                        width: 100%;
+                        background: rgb(13, 240, 13);
+                        border: none;
+                        height: 100%;
+                        color: white;
+                        font-weight: bold;
+                        border-radius: 0px 0px 0px 5px;
+                    }
+                }
+                button {
+                    width: 50%;
+                    border: solid red;
+                    background: red;
+                    color: white;
+                    height: 100%;
+                    font-weight: bold;
+                    cursor: pointer;
+                    border-radius: 0px 0px 5px 0px;
+                }
+            }
+        }
+    }
+}
